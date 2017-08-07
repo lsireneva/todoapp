@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:tooltipText="@string/edit_item"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:hint="@string/edit_item_below"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edited_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:id="@+id/btnSaveChanges"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:onClick="onSaveChanges"
+            android:text="Save" />
+    </LinearLayout>
