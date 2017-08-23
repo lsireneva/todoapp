@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_todo_task"
+        android:icon="@drawable/add_todo_task"
+        android:visible="true"
+        yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/save_todo_task"
+        android:icon="@drawable/save_todo_task"
+        android:visible="false"
+        yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/close_todo_task"
+        android:icon="@drawable/close_todo_task"
+        android:visible="false"
+        yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/edit_todo_task"
+        android:icon="@drawable/edit_todo_task"
+        android:visible="false"
+        yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/delete_todo_task"
+        android:icon="@drawable/delete_todo_task"
+        android:visible="false"
+        yourapp:showAsAction="always" />
+</menu>

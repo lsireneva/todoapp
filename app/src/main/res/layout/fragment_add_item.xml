@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:scrollbarStyle="outsideOverlay">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0">
+
+        <TableRow>
+
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="@string/task_name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/taskNameInput"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="@string/taskNameHint"
+                android:maxLines="1"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black">
+
+                <requestFocus />
+            </EditText>
+
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/colorTitleFont" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="@string/due_date"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <DatePicker
+                android:id="@+id/dueDatePicker"
+                android:layout_gravity="left"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/colorTitleFont" />
+
+        <TableRow>
+
+            <TextView
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="@string/task_notes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/taskNotesInput"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="@string/taskNotesHint"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/colorTitleFont" />
+
+        <TableRow>
+
+            <TextView
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="@string/task_priority"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"></TextView>
+
+            <Spinner
+                android:id="@+id/taskPriorityLevelSpinner"
+                android:focusedByDefault="true"
+                android:gravity="right"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+            />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/colorTitleFont" />
+
+        <TableRow>
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/task_status"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"></TextView>
+
+            <Spinner
+                android:id="@+id/taskStatusSpinner"
+                android:gravity="right"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+
+

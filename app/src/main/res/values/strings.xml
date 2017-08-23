@@ -1,9 +1,30 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/tools">
     <string name="app_name">ToDoApp</string>
     <string name="add">Add item</string>
     <string name="add_item">Add a new item ...</string>
     <string name="edit_item">Edit Item</string>
     <string name="edit_item_below">Edit Item Below:</string>
     <string name="editItemActivity">Edit item</string>
+    <string name="task_name">Task Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="due_date">Due Date</string>
+    <string name="task_notes">Task Notes</string>
+    <string name="task_priority">Priority level</string>
+    <string name="task_status">Status</string>
+    <string name="taskNameHint">Enter name of task</string>
+    <string name="taskNotesHint">Enter notes for task</string>
+
+    <string-array name="taskPriorityLevelSpinner">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="taskStatusSpinner">
+        <item>Done</item>
+        <item>TO-DO</item>
+    </string-array>
 
 </resources>
