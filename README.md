@@ -17,12 +17,12 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x ] Persist the todo items into SQLite instead of a text file
-* [x ] Improve style of the todo items in the list using a custom adapter
-* [x ] Add support for completion due dates for todo items 
-* [x ] Use a DialogFragment and Fragments instead of new Activity for editing items
-* [x ] Add support for selecting the priority of each todo item (and display in listview item)
-* [x ] Tweak the style improving the UI / UX, play with colors, images or backgrounds
+* [x] Persist the todo items into SQLite instead of a text file
+* [x] Improve style of the todo items in the list using a custom adapter
+* [x] Add support for completion due dates for todo items 
+* [x] Use a DialogFragment and Fragments instead of new Activity for editing items
+* [x] Add support for selecting the priority of each todo item (and display in listview item)
+* [x] Tweak the style improving the UI / UX, play with colors, images or backgrounds
 * [x]  Use a Toolbar for navigating between Fragments and MainActivity
 
 
@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/HEyxK' title='ToDoApp'/>
+<img src='http://i.imgur.com/ft93QSE.gif' title='ToDoApp'/>
 
 GIF created with Vokoscreen.
 
