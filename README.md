@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/RovaexM.gif' title='ToDoApp'/>
+<img src='http://i.imgur.com/2A243g0.gif' title='ToDoApp'/>
 
 GIF created with Vokoscreen.
 
