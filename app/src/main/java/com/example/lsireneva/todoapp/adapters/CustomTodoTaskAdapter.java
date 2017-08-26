@@ -1,4 +1,4 @@
-package com.example.lsireneva.todoapp;
+package com.example.lsireneva.todoapp.adapters;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
+import com.example.lsireneva.todoapp.activities.MainActivity;
+import com.example.lsireneva.todoapp.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

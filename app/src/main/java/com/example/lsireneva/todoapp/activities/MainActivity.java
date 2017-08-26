@@ -1,4 +1,4 @@
-package com.example.lsireneva.todoapp;
+package com.example.lsireneva.todoapp.activities;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -22,6 +22,12 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.lsireneva.todoapp.R;
+import com.example.lsireneva.todoapp.adapters.CustomTodoTaskAdapter;
+import com.example.lsireneva.todoapp.fragments.AddItemFragment;
+import com.example.lsireneva.todoapp.fragments.EditItemFragment;
+import com.example.lsireneva.todoapp.models.TodoDatabase;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

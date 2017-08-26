@@ -1,4 +1,4 @@
-package com.example.lsireneva.todoapp;
+package com.example.lsireneva.todoapp.models;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,6 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import com.example.lsireneva.todoapp.activities.MainActivity;
 
 import java.util.ArrayList;
 

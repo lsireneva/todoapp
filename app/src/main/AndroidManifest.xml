@@ -7,7 +7,7 @@
         android:icon="@drawable/todoapp_logo"
         android:theme="@style/TodoAppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CustomTodoTaskAdapter"></activity>
+        <activity android:name=".adapters.CustomTodoTaskAdapter"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.lsireneva.todoapp;
+package com.example.lsireneva.todoapp.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -14,6 +14,8 @@ import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.example.lsireneva.todoapp.R;
 
 import java.util.Calendar;
 

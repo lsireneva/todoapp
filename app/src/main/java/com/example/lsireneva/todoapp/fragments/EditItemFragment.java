@@ -1,4 +1,4 @@
-package com.example.lsireneva.todoapp;
+package com.example.lsireneva.todoapp.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+
+import com.example.lsireneva.todoapp.R;
 
 /**
  * Created by Liubov Sireneva
